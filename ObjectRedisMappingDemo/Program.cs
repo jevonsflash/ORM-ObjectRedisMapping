@@ -20,7 +20,8 @@
             {
                 Name = "Tom",
                 Age = 18,
-                Fellows = new List<Person>()
+                Fellows = new List<Person>(),
+                GoToSchool = new DateTime(2000,1,1)
             };
             Console.WriteLine("Commit a Person{ Name=Blueve, Age=27 } to database");
             dbContext.Save(person);
